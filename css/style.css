@@ -1,0 +1,263 @@
+/* pengaturan dasar */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+body {
+    background-color: #f8fafc;
+    color: #333333;
+}
+
+/*navbar / header*/
+#sri_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+.sri_logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.sri_navbar a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sri_navbar a:hover {
+    color: #2563eb;
+}
+
+/*hero section*/
+#sri_hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 8%;
+  background : linear-gradient(135deg, #f0fdf4 0%, #eff6ff 100%);
+}
+
+.sri_hero_text{
+    max-width: 50%;
+}
+
+.sri_hero_greeting{
+    font-size: 16px;
+    color: #4b5563;
+}
+
+.sri_hero_text h1{
+    font-size: 38px;
+    color: #1e293b;
+    margin: 5px 0;
+}
+
+.sri_hero_text h1 span{
+    color: #2563eb;
+}
+
+.sri_hero_text h3 {
+    font-size: 16px;
+    color: #64748b;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.sri_bio {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.sri_buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.sri_btn {
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.sri_btn_blue {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.sri_btn_outline {
+    background-color: transparent;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+}
+
+.sri_mockup_laptop {
+    width: 45%;
+    max-width: 450px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   overflow: hidden;
+}
+.sri_mockup_laptop img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/*container utama section*/
+.sri_section {
+    padding: 40px 8%;
+}
+
+.sri_section h2 {
+    font-size: 24px;
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+/*About me kotak*/
+.sri_about_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.sri_about_text{
+    max-width: 70%;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #475569;
+}
+.sri_info_list{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color:#64748b;
+}
+
+.sri_about_img {
+    width: 140px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.sri_about_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* skills gird*/
+.sri_skills_gird {
+    display: grid;
+    grid-template-columns:repeat(5, 1fr) ;
+    gap: 12px;
+}
+
+.sri_skill_card {
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+/* project gird 4 kolom */
+.sri_projects_gird {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap : 15px;
+}
+.sri_project_card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.sri_proj_img {
+    width: 100%;
+    height: 100px;
+    background-color: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.sri_project_info {
+    padding: 12px;
+}
+.sri_project_info h4 {
+    font-size: 14px;
+    color: #1e293b;
+    margin-bottom: 4px;
+}
+.sri_project_info p {
+    font-size: 12px;
+    color: #64748b;
+    margin-bottom: 4px;
+}
+.sri_project_info a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/*footer*/
+#sri_footer {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 20px 8% 15px 8%;
+}
+.sri_footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.sri_footer_brand h3 {
+   color: #3b82f6;
+   font-size: 18px;
+   margin-bottom: 5px;
+}
+.sri_footer_brand p {
+    font-size: 14px;
+    color: #94a3b8;
+}
+.sri_footer_contacts{
+    display: flex;
+    gap: 20px;
+}
+.sri_footer_contacts span{
+    color: #e2e8f0;
+    font-size:14px
+}
+.sri_footer_bottoms {
+   border-top: 1px solid #334155;
+   padding-top: 15px;
+   color: #94a3b8;
+   font-size: 13px;
+}
